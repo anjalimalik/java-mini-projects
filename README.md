@@ -1,2 +1,2 @@
-# java-mini-projects
+# java-projects
 Varied projects programmed in Java
