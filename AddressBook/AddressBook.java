@@ -22,8 +22,8 @@ public class AddressBook {
      * address if the argument's address is not null. If the totalContacts reaches the 
      * maxContacts, then the contacts array is doubled in size and maxContacts is doubled 
      * before the new Contact is added.
-     * 
-     * @param contact The Contact to add to this AddressBook
+     *
+     * contact The Contact to add to this AddressBook
      * @return true if the Contact was added, false otherwise
      */
     public boolean addContact(Contact contact) {
@@ -73,7 +73,7 @@ public class AddressBook {
      * remove C6
      * after -> {C1, C2, C3, C4, C5, C7, C8, C9, null, null}
      * 
-     * @param contact The Contact to remove from this AddressBook
+     * contact The Contact to remove from this AddressBook
      * @return true if the Contact was removed, false otherwise
      */
     public boolean removeContact(Contact contact) {
@@ -102,7 +102,7 @@ public class AddressBook {
     /**
      * Gets a Contact by the specified name from this AddressBook.
      * 
-     * @param name The name of the Contact to get
+     * name The name of the Contact to get
      * @return The Contact if they are found, null otherwise
      */
     public Contact getContactByName(String name) {
