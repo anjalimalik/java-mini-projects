@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Test {
+public class test {
     int d; // maximum mileage 
     int[] dist;////array of distances - where dist[i] contains the distance between gas station(i) and gas station(i+1)
     ArrayList stops = new ArrayList();
